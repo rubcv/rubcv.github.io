@@ -13,7 +13,7 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
-/* header {
+header {
    position: relative;
    height: 800px;
    min-height: 500px;
@@ -23,26 +23,7 @@ body { background: #0f0f0f; }
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
-} */
-
-header {
-   position: relative;
-   height: 800px;
-   min-height: 500px;
-   width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
-   
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-
-.banner-text {
-   text-align: center !important;
-   margin-left: 45%;
-}
+} 
 
 /* vertically center banner section */
 header:before {

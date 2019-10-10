@@ -7,29 +7,6 @@
 /* ================================================================== */
 
 
-/* screenwidth between than 1024px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 1491px) and (min-width: 1215px) {
-   
-   .banner-text {
-     
-      margin-left: 300px !important; 
-   }
-
-
-}
-
-
-/* screenwidth less than 1024px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 1491px) {
-
-  .banner-text {
-     
-     margin-left: 30px !important; 
-  }
-}
-
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
@@ -42,10 +19,7 @@
       margin: 0 auto 12px auto;
    }
 
-   .banner-text {
-      
-      margin-left: -30px !important; 
-   }
+
 }
 
 /* screenwidth less than 900px
@@ -116,11 +90,6 @@
    }
    #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
 
-
-   .banner-text {
-      
-      margin-left: -30px !important; 
-   }
 }
 
 /* mobile wide/smaller tablets
@@ -369,10 +338,6 @@
    #goup {
       display: none;
    }
-
-   .banner-text {
-      margin-left: -30px !important; 
-   }
 }
 
 /* mobile narrow
@@ -409,11 +374,6 @@
 
    #goup {
       display: none;
-   }
-
-   .banner-text {
-      
-      margin-left: -30px !important; 
    }
 
 }
